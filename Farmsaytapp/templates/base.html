@@ -1,0 +1,60 @@
+{%load static%}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"></div>
+        <div class="phone"></div>
+    </header>
+    <nav class="navbar">
+        <div class="nav-widget">
+            <ul id="menu">
+                <a href="">
+                    <li class="li">Главная</li>
+                </a>
+                <li class="li tree">О компании
+                    <ul>
+                        <a href="">
+                            <li>Миссия компании</li>
+                        </a>
+                        <a href="">
+                            <li>О заводе</li>
+                        </a>
+                    </ul>
+                </li>
+                <a href="">
+                    <li class="li">Новости</li>
+                </a>
+                <a href="">
+                    <li class="li">Продукция
+                        <ul>
+                            <a href="">
+                                <li>Где купить?</li>
+                            </a>
+                            <a href="">
+                                <li>Каталог</li>
+                            </a>
+                        </ul>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+
+
+    </nav>
+
+
+
+
+
+</body>
+</html>
