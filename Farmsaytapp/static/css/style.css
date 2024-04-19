@@ -1,67 +1,90 @@
+@font-face{
+    font-family: "Monserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+body{
+    margin: 0;
+    font-family: Monserrat;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0;
+}
 
 .header{
-    height: 150px;
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
-    
-    
-
+    padding: 10px 10%;
+    margin: 10px 0;
 }
-
-.logo{
-    background-color: rgb(116, 143, 248);
-    padding: 80px;
-    align-content: center;
-}
-
-.logo img{
+.header-widget img{
     height: 100px;
     width: 100px;
-    border-radius: 100%;
     object-fit: cover;
-    
 }
-
-.phone{
-    background-color: rgb(183, 119, 243);
-    align-content: center;
-    padding: 80px;
+.header-widget p{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .navbar{
-    display: block;
-    align-content: center;
-    justify-content: center;
-}
-
-.nav-widget{
-    height: 450px;
-    width: 100%;
-    background-color: blue;
-}
-
-#menu{
-    list-style: none;
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: center;
+    font-weight: bold;
+    background-color: lightblue;
 }
-
-ul{
-    padding: 60px;
-
+.nav-widget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    position: relative;
+    font-size: 22px;
+}
+#menu a{
+    color: black;
+}
+.li{
+    padding: 20px 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.tree ul{
+    display: none;
+    background-color: lightblue;
+    text-align: center;
+    position: absolute;
+    top: 2.9em;
+}
+.tree ul a li{
+    width: 150px;
+    padding: 15px 20px;
+}
+.first_tree ul{
+    left: 6.3em;
+}
+.second_tree ul{
+    left: 20.8em;
+}
+.open ul{
+    display: block;
 }
 
 .footer{
-    height: 40px;
     background-color: rgb(38, 184, 184);
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 110px;
-    
+    padding: 10px 10%;
 }
 
 
@@ -70,5 +93,4 @@ ul{
     width: 70px;
     border-radius: 100%;
     object-fit: cover;
-    
 }
