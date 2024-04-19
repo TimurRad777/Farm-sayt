@@ -1,6 +1,4 @@
 {%load static%}
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,10 +9,10 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo">
-            <img src="../static/media/bayer-logo-0.png" alt="">
+        <div class="header-widget">
+            <img src="../static/img/bayer-logo-0.png" alt="">
         </div>
-        <div class="phone">
+        <div class="header-widget">
             <p>+998000000000</p>
             <p>+998000000000</p> 
         </div>
@@ -23,9 +21,9 @@
         <div class="nav-widget">
             <ul id="menu">
                 <a href="">
-                    <li class="li"><b>Главная</b></li>
+                    <li class="li">Главная</li>
                 </a>
-                <li class="li tree"><b>О компании</b>
+                <li class="li tree first_tree">О компании
                     <ul>
                         <a href="">
                             <li>Миссия компании</li>
@@ -36,31 +34,32 @@
                     </ul>
                 </li>
                 <a href="">
-                    <li class="li"><b>Новости</b></li>
+                    <li class="li">Новости</li>
                 </a>
-                <a href="">
-                    <li class="li"><b>Продукция</b>
-                        <ul>
-                            <a href="">
-                                <li>Где купить?</li>
-                            </a>
-                            <a href="">
-                                <li>Каталог</li>
-                            </a>
-                        </ul>
-                    </li>
-                </a>
+                <li class="li tree second_tree">Продукция
+                    <ul>
+                        <a href="">
+                            <li>Где купить?</li>
+                        </a>
+                        <a href="">
+                            <li>Каталог</li>
+                        </a>
+                    </ul>
+                </li>
             </ul>
         </div>
     </nav>
+    {% block content %}
+
+    {% endblock %}
     <footer class="footer">
         <div class="footerimg">
-            <img src="../static/media/bayer-logo-0.png" alt="">
+            <img src="../static/img/bayer-logo-0.png" alt="">
         </div>
     </footer>
 
 
 
-    <script src="./js/script.js"></script>
+    <script src="{% static 'js/open.js' %}"></script>
 </body>
 </html>
