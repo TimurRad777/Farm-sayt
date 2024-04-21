@@ -23,6 +23,7 @@ li{
     justify-content: space-between;
     padding: 10px 10%;
     margin: 10px 0;
+    background-image: url(../img/фон1.jpg)
 }
 .header-widget img{
     height: 100px;
@@ -70,27 +71,86 @@ li{
     padding: 15px 20px;
 }
 .first_tree ul{
-    left: 6.3em;
+    left: 7.5em;
 }
 .second_tree ul{
-    left: 20.8em;
+    left: 23.8em;
 }
 .open ul{
     display: block;
 }
 
 .footer{
-    background-color: rgb(38, 184, 184);
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 10px 10%;
+    padding: 10px 11%;
+    background-image: url(../img/фон3.jpg)
 }
 
 
 .footer img{
     height: 70px;
     width: 70px;
-    border-radius: 100%;
+    border-radius: 50%;
     object-fit: cover;
 }
+
+.middle{
+    padding: 10px 10%;
+    margin: 0;
+    display: flex;
+    background-image: url(../img/фон2.jpg)
+       
+}
+
+.text{
+    width: 50%;
+}
+
+.text h2{
+    padding: 30px;
+    
+}
+
+.text h1{
+    padding: 30px;
+}
+
+.text a{
+    padding: 30px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(140, 205, 245);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.animate{
+    width: 50%;
+    height: 400px;
+    animation: preparate 5s infinite;
+    border-radius: 20px 20px 20px 20px;
+}  
+@keyframes preparate{
+        0%{
+            background-image: url(../img/лекарства1.jpg);
+            background-size: cover;
+        }
+        33%{
+            background-image: url(../img/лекарства2.jpg);
+            background-size: cover;  
+        }
+        66%{
+            background-image: url(../img/лекарства3.jpg);
+            background-size: cover;  
+        }
+        100%{
+            background-image: url(../img/лекарства4.jpg);
+            background-size: cover; 
+        }
+        
+
+
+
+}
+
