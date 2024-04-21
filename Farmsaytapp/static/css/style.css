@@ -101,7 +101,6 @@ li{
     margin: 0;
     display: flex;
     background-image: url(../img/фон2.jpg)
-       
 }
 
 .text{
@@ -148,9 +147,5 @@ li{
             background-image: url(../img/лекарства4.jpg);
             background-size: cover; 
         }
-        
-
-
-
 }
 
