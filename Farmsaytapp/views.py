@@ -17,3 +17,6 @@ def news(request):
 
 def buy(request):
     return render(request, "buy.html")
+
+def catalog(request):
+    return render(request, "catalog.html")

@@ -83,7 +83,7 @@ li{
 .tree ul a li{
     width: 125px;
     padding: 15px 20px;
-    color:black
+    color:black;
     transition: 300ms;
 }
 
@@ -226,9 +226,12 @@ li{
     padding: 0 10px;
 }
 
+.center_text1 p{
+    text-align: justify;
+}
+
 .center_text1 h3{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .footer_img2{
@@ -251,9 +254,13 @@ li{
     padding: 0 10px;
 }
 
+.footer_text2 p{
+    text-align: justify;
+
+}
+
 .footer_text2 h3{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 
 }
 
@@ -391,5 +398,41 @@ li{
     color: black;
 }
 
+.parent_catalog{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15%;
+    
+}
+
+.title_catalog{
+    text-align: center;
+}
+
+.card1{
+    height: 250px;
+    width: 20%;
+    border: 1px solid transparent;
+    background-color: rgb(249, 249, 243);
+    transition: 300ms;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card1:hover{
+    background-color: rgb(245, 245, 209);
+    border: 1px solid black;
+}
+
+.card1 img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card1 h2{
+    text-align: center;
+    color:black;
+}
 
 
