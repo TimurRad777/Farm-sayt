@@ -320,6 +320,7 @@ li{
 
 .top_text1 p{
     padding: 10px 10px;
+    text-align: justify;
 }
 
 .bottom_img2{
@@ -342,9 +343,14 @@ li{
 
 }
 
+.bottom_text2 p{
+    text-align: justify;
+    padding: 0 10px;
+}
+
 .news{
-    background-color: rgb(168, 83, 241);
-    height: 250px;
+    background-image: url(../img/header_parent.jpg);
+    height: 950px;
 }
 
 .news_text{
@@ -354,7 +360,157 @@ li{
     font-weight: bold;
     color: black;
     position: relative;
-    top: 70px;
+    top: 30px;
+}
+
+.news_card1{
+    height: 350px;
+    width: 40%;
+    padding: 0 0 17px 0;
+    background-color: rgb(184, 236, 236);
+    transition: 300ms;
+    border: 1px solid transparent;
+    position: relative;
+    left: 130px;
+    top: 30px;
+    border-radius: 20px;
+}
+
+.news_card1:hover{
+    border: 1px solid black;
+}
+
+.news_card1 img{
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.read{
+    text-align: right;
+    position: relative;
+    top: -60px;
+}
+
+.news_card1 a h3{
+    color: black;
+    padding: 0 10px;
+}
+
+.news_card1 a p{
+    color: black;
+    padding: 0 10px;
+}
+
+.news_card2{
+    height: 350px;
+    width: 40%;
+    padding: 0 0 17px 0;
+    background-color: rgb(184, 236, 236);
+    transition: 300ms;
+    border: 1px solid transparent;
+    position: relative;
+    left: 740px;
+    top: -340px;
+    border-radius: 20px;
+}
+
+.news_card2:hover{
+    border: 1px solid black;
+}
+
+.news_card2 img{
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.news_card2 a h3{
+    color: black;
+    padding: 0 10px;
+}
+
+.news_card2 a p{
+    color: black;
+    padding: 0 10px;
+}
+
+.news_card3{
+    height: 350px;
+    width: 40%;
+    padding: 0 0 17px 0;
+    background-color: rgb(184, 236, 236);
+    transition: 300ms;
+    border: 1px solid transparent;
+    position: relative;
+    left: 740px;
+    top: -310px;
+    border-radius: 20px;
+}
+
+.news_card3:hover{
+    border: 1px solid black;
+}
+
+.news_card3 img{
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.news_card3 a h3{
+    color: black;
+    padding: 0 10px;
+}
+
+.news_card3 a p{
+    color: black;
+    padding: 0 10px;
+}
+
+.news_card4{
+    height: 350px;
+    width: 40%;
+    padding: 0 0 17px 0;
+    background-color: rgb(184, 236, 236);
+    transition: 300ms;
+    border: 1px solid transparent;
+    position: relative;
+    left: 130px;
+    top: -677px;
+    border-radius: 20px;
+}
+
+.news_card4:hover{
+    border: 1px solid black;
+}
+
+.news_card4 img{
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.news_card4 a h3{
+    color: black;
+    padding: 0 10px;
+}
+
+.news_card4 a p{
+    color: black;
+    padding: 0 10px;
 }
 
 .parent_buy{
@@ -435,4 +591,184 @@ li{
     color:black;
 }
 
+.parent_cream{
+    height: 1000px;
+    width: 100%;
+    background-image: url(../img/header_parent.jpg);
+}
 
+.foto_cream{
+    background-image: url(../img/foto_cream.jpg);
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+}
+
+.text_cream{
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+}
+
+.text_cream p{
+    text-align: justify;
+}
+
+.parent_cream2{
+    height: 1000px;
+    width: 100%;
+    background-image: url(../img/header_parent.jpg);
+}
+
+.foto_cream2{
+    background-image: url(../img/foto_cream2.jpg);
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+}
+
+.text_cream2{
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+}
+
+.text_cream2 p{
+    text-align: justify;
+}
+
+.parent_cream3{
+    height: 1000px;
+    width: 100%;
+    background-image: url(../img/header_parent.jpg);
+}
+
+.foto_cream3{
+    background-image: url(../img/foto_cream3.jpg);
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+}
+
+.text_cream3{
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+}
+
+.text_cream3 p{
+    text-align: justify;
+}
+
+.parent_cream4{
+    height: 1000px;
+    width: 100%;
+    background-image: url(../img/header_parent.jpg);
+}
+
+.foto_cream4{
+    background-image: url(../img/foto_cream4.jpg);
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+}
+
+.text_cream4{
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+}
+
+.text_cream4 p{
+    text-align: justify;
+}
+
+.parent_urorens{
+    background-image: url(../img/header_parent.jpg);
+    height: 1300px;
+    width: 100%;
+}
+
+.photo_urorens{
+    background-image: url(../img/urorens.jpg);
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+    object-fit: cover;
+}
+
+.btn_urorens1{
+    background-color: rgb(157, 197, 238);
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    top: 55px;
+    transition: 100ms;
+}
+
+.btn_urorens1:hover{
+    background-color: rgb(130, 185, 241);
+    border: 2px solid black;
+}
+
+.btn_urorens1 a{
+    position: relative;
+    top: 14px;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.btn_urorens2{
+    background-color: rgb(157, 197, 238);
+    border-radius: 20px;
+    height: 60px;
+    width: 280px;
+    text-align: center;
+    position: relative;
+    left: 900px;
+    transition: 100ms;
+}
+
+.btn_urorens2:hover{
+    background-color: rgb(130, 185, 241);
+    border: 2px solid black;
+}
+
+.btn_urorens2 a{
+    position: relative;
+    top: 14px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.text_urorens{
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 220px;
+
+}
+
+.text_urorens p{
+    text-align: justify;
+}
+
+.text_urorens h2{
+    text-align: center;
+
+}
