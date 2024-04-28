@@ -9,9 +9,6 @@ urlpatterns = [
     path('news/', views.news, name = 'news'),
     path('buy/', views.buy, name = 'buy'),
     path('catalog/', views.catalog, name = 'catalog'),
-    path('news_card1/', views.news_card1, name = 'news_card1'),
-    path('news_card2/', views.news_card2, name = 'news_card2'),
-    path('news_card3/', views.news_card3, name = 'news_card3'),
-    path('news_card4/', views.news_card4, name = 'news_card4'),
-    path('urorens/', views.urorens, name = 'urorens'),
+    path('news_card/', views.news_card, name = 'news_card'),
+    path('product_detail/', views.product_detail, name = 'product_detail'),
 ]

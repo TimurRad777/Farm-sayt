@@ -21,17 +21,8 @@ def buy(request):
 def catalog(request):
     return render(request, "catalog.html")
 
-def news_card1(request):
-    return render(request, "news_card1.html")
+def news_card(request):
+    return render(request, "news_card.html")
 
-def news_card2(request):
-    return render(request, "news_card2.html")
-
-def news_card3(request):
-    return render(request, "news_card3.html")
-
-def news_card4(request):
-    return render(request, "news_card4.html")
-
-def urorens(request):
-    return render(request, "urorens.html")
+def product_detail(request):
+    return render(request, "product_detail.html")
