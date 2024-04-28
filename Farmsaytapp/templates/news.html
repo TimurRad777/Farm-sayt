@@ -4,56 +4,24 @@
 
     <div class="news">
         <div class="news_text">
-        <h1>НОВОСТИ</h1>
-        </div>    
-        <div class="news_card1">
-            <a href="{%url 'news_card1'%}">
-                <img src="../static/img/news_card1.jpg" alt="Фото выдачи препаратов в аптеке">
-                <div class="information">
-                <h3>НОВОСТИ КОМПАНИИ</h3>
-                <p>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</p>
-                </div>
-                <div class="read">
-                <p>ЧИТАТЬ...</p>
-                </div>
-            </a>
-        </div>
-        <div class="news_card2">
-            <a href="{%url 'news_card2'%}">
-                <img src="../static/img/news_card1.jpg" alt="Фото выдачи препаратов в аптеке">
-                <div class="information">
-                <h3>НОВОСТИ КОМПАНИИ</h3>
-                <p>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</p>
-                </div>
-                <div class="read">
-                <p>ЧИТАТЬ...</p>
-                </div>
-            </a>
-        </div>
-        <div class="news_card3">
-            <a href="{%url 'news_card3'%}">
-                <img src="../static/img/news_card1.jpg" alt="Фото выдачи препаратов в аптеке">
-                <div class="information">
-                <h3>НОВОСТИ КОМПАНИИ</h3>
-                <p>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</p>
-                </div>
-                <div class="read">
-                <p>ЧИТАТЬ...</p>
-                </div>
-            </a>
-        </div>
-        <div class="news_card4">
-            <a href="{%url 'news_card4'%}">
-                <img src="../static/img/news_card1.jpg" alt="Фото выдачи препаратов в аптеке">
-                <div class="information">
-                <h3>НОВОСТИ КОМПАНИИ</h3>
-                <p>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</p>
-                </div>
-                <div class="read">
-                <p>ЧИТАТЬ...</p>
-                </div>
-            </a>
-        </div>
+            <h1>НОВОСТИ</h1>
+        </div>  
+        <div class="row">
+            <div class="news_card">
+                <a href="{% url 'news_card' %}">
+                    <img src="../static/img/news_card1.jpg" alt="Фото выдачи препаратов в аптеке">
+                    <div class="row">
+                        <div class="information">
+                            <h3>НОВОСТИ КОМПАНИИ</h3>
+                            <p>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</p>
+                        </div>
+                        <div>
+                            <p>ЧИТАТЬ...</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>  
     </div>
 
 {% endblock %}
