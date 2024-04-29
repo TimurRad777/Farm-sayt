@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
 
@@ -7,12 +8,13 @@
             <h1>НОВОСТИ</h1>
         </div>  
         <div class="row">
+            {% for news in news %}
             <div class="news_card">
-                <a href="{% url 'news_card' %}">
-                    <img src="../static/img/news_card1.jpg" alt="Фото выдачи препаратов в аптеке">
+                <a href="{% url 'news_card' news.slug %}">
+                    <img src="{{ news.image.url }}" alt="Фото выдачи препаратов в аптеке">
                     <div class="row">
                         <div class="information">
-                            <h3>НОВОСТИ КОМПАНИИ</h3>
+                            <h3>{{ news.title }}</h3>
                             <p>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</p>
                         </div>
                         <div>
@@ -21,6 +23,7 @@
                     </div>
                 </a>
             </div>
+            {% endfor %}
         </div>  
     </div>
 

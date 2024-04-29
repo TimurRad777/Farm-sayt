@@ -267,28 +267,28 @@ li{
 
 .header_parent1{
     background-image: url(../img/header_parent.jpg);
-    height: 950px;
-    padding: 0;
-    position: relative;
+    display: flex;
+}
+
+.half-page{
+    width: 50%;
+    padding: 20px;
 }
 
 .top_img1{
     background: url(../img/top_img1.jpg) rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
     background-size: cover;
-    height: 800px;
-    width: 47%;
-    position: relative;
-    left: 0;
-    top: 0;
-    margin: 0 15px;
-    
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
 
 .top_img1 p{
     font-size: 25px;
     font-weight: bold;
-    color: black;
     display: flex;
     justify-content: center;
     padding: 60px 0;
@@ -297,30 +297,20 @@ li{
 .top_img1 a{
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: white;
     border-radius: 20px;
     background-color: rgb(119, 186, 238);
-    padding: 20px 5px;
-    position: relative;
-    left: 240px;
-    top: 180px;
+    padding: 20px 15px;
     transition: 300ms;
 }
 
 .top_img1 a:hover{
     background-color: rgb(76, 168, 239);
-    color: white;
 }
 
 
 .top_text1{
     background-image: url(../img/header_parent.jpg);
-    height: 320px;
-    width: 47%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 0 10px;
 }
 
 .top_text1 p{
@@ -329,30 +319,18 @@ li{
 }
 
 .bottom_img2{
-    background-image: url(../img/bottom_img2.jpg);
+    background: url(../img/bottom_img2.jpg) rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
     background-size: cover;
-    height: 550px;
-    width: 47%;
-    position: absolute;
-    right: 0;
-    top: 350px;
-    margin: 0 10px;
+    height: 350px;
 }
 
 .bottom_text2{
     background-image: url(../img/header_parent.jpg);
-    height: 150px;
-    width: 47%;
-    position: absolute;
-    left: 0;
-    top: 800px;
-    margin: 0 10px;
-
 }
 
 .bottom_text2 p{
     text-align: justify;
-    padding: 0 10px;
 }
 
 .news{
@@ -387,6 +365,7 @@ li{
 
 .news_card img{
     width: 100%;
+    height: 400px;
     padding: 0;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
