@@ -1,6 +1,5 @@
 from django.shortcuts import render
-
-
+from .models import Post, Product
 
 
 def index(request):
@@ -13,7 +12,8 @@ def plant(request):
     return render(request, "plant.html")
 
 def news(request):
-    return render(request, "news.html")
+    news = Post.objects.all()
+    return render(request, "news.html", {'news':news})
 
 def buy(request):
     return render(request, "buy.html")
@@ -21,8 +21,9 @@ def buy(request):
 def catalog(request):
     return render(request, "catalog.html")
 
-def news_card(request):
-    return render(request, "news_card.html")
+def news_card(request, slug):
+    news = Post.objects.get(slug__iexact = slug)
+    return render(request, "news_card.html", {'news':news})
 
 def product_detail(request):
     return render(request, "product_detail.html")

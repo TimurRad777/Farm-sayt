@@ -10,7 +10,7 @@
 <body>
     <header class="header">
         <div class="header-widget">
-            <img src="../static/img/bayer-logo-0.png" alt="">
+            <img src="{% static 'img/bayer-logo-0.png' %}" alt="">
         </div>
         <div class="header-widget">
             <p>+998000000000</p>
@@ -20,28 +20,28 @@
     <nav class="navbar">
         <div class="nav-widget">
             <ul id="menu">
-                <a href="{%url 'index'%}">
+                <a href="{% url 'index' %}">
                     <li class="li">Главная</li>
                 </a>
                 <li class="li tree first_tree">О компании
                     <ul>
-                        <a href="{%url 'mission'%}">
+                        <a href="{% url 'mission' %}">
                             <li>Миссия компании</li>
                         </a>
-                        <a href="{%url 'plant'%}">
+                        <a href="{% url 'plant' %}">
                             <li>О заводе</li>
                         </a>
                     </ul>
                 </li>
-                <a href="{%url 'news'%}">
+                <a href="{% url 'news'%}">
                     <li class="li">Новости</li>
                 </a>
                 <li class="li tree second_tree">Продукция
                     <ul>
-                        <a href="{%url 'buy'%}">
+                        <a href="{% url 'buy' %}">
                             <li>Где купить?</li>
                         </a>
-                        <a href="{%url 'catalog'%}">
+                        <a href="{% url 'catalog' %}">
                             <li>Каталог</li>
                         </a>
                     </ul>
@@ -54,7 +54,7 @@
     {% endblock %}
     <footer class="footer">
         <div class="footerimg">
-            <img src="../static/img/bayer-logo-0.png" alt="">
+            <img src="{% static 'img/bayer-logo-0.png' %}" alt="">
         </div>
     </footer>
 
