@@ -9,6 +9,6 @@ urlpatterns = [
     path('news/', views.news, name = 'news'),
     path('buy/', views.buy, name = 'buy'),
     path('catalog/', views.catalog, name = 'catalog'),
-    path('news_card/<slug:slug>/', views.news_card, name = 'news_card'),
-    path('product_detail/', views.product_detail, name = 'product_detail'),
+    path('news_card/<slug:slug>/', views.news_card, name = 'post_detail_url'),
+    path('product_detail/<slug:slug>/', views.product_detail, name = 'product_detail_url'),
 ]

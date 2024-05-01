@@ -10,8 +10,8 @@
         <div class="row">
             {% for news in news %}
             <div class="news_card">
-                <a href="{% url 'news_card' news.slug %}">
-                    <img src="{{ news.image.url }}" alt="Фото выдачи препаратов в аптеке">
+                <a href="{{ news.get_link %}}">
+                    <img src="{{ news.image.url }}" alt="">
                     <div class="row">
                         <div class="information">
                             <h3>{{ news.title }}</h3>

@@ -1,13 +1,17 @@
 {% extends 'base.html' %}
+{% load static %}
 
 
 {% block content %}
 <h1 class="title_catalog">КАТАЛОГ ПРОДУКЦИИ</h1>
 <div class="parent_catalog">
-    <a class="card" href="{% url 'product_detail' %}">
-        <img src="../static/img/card1.png" alt="УРОРЕНС">
-        <h2>УРОРЕНС</h2>
-    </a>
-</div>
+{% for product in catalog %}
 
+    <a class="card" href="{{ product.get_link }}">
+        <img src="{{ product.image.url }}" alt="">
+        <h2>{{ product.title }}</h2>
+    </a>
+
+{% endfor %}
+</div>
 {% endblock %}

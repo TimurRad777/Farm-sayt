@@ -426,7 +426,7 @@ li{
 
 .parent_catalog{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 10px 15%;
     
 }
